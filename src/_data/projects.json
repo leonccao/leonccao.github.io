@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Micrograd",
+    "label": "01 / Automatic differentiation",
+    "description": "Exploring gradients, backpropagation, and small neural networks through Andrej Karpathy’s Zero to Hero course.",
+    "topics": "Python · Autograd · Neural networks",
+    "url": "https://github.com/leonccao/language-modeling-from-scratch/tree/main/karpathy_zero_to_hero/building_micrograd",
+    "image": "/assets/autograd.svg",
+    "alt": "Conceptual computation graph: inputs x and w are multiplied, then bias b is added to produce y. Gradients flow backward."
+  },
+  {
+    "title": "Language modeling / CS336",
+    "label": "02 / From bytes to models",
+    "description": "Studying the building blocks of language models through Stanford CS336, including byte-pair tokenization and the mechanics behind text processing.",
+    "topics": "Python · Tokenization · Language models",
+    "url": "https://github.com/leonccao/language-modeling-from-scratch/tree/main/CS336",
+    "image": "/assets/tokenization.svg",
+    "alt": "Conceptual byte-pair tokenization: the symbols l, o, w are merged into lo and w, then into low, following learned merge rules."
+  }
+]

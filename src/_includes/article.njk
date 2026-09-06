@@ -1,0 +1,12 @@
+---
+layout: base.njk
+---
+<article class="article">
+  <header class="article-header">
+    <a class="eyebrow" href="/archives/">← All writing</a>
+    <h1>{{ title }}</h1>
+    <p class="muted"><time datetime="{{ date | dateISO }}">{{ date | dateLabel }}</time>{% if 'OS' in tags %} · <a href="/tags/OS/">Operating systems</a>{% endif %}</p>
+  </header>
+  <div class="prose">{{ content | safe }}</div>
+  <div class="article-end"><a href="/archives/">← Back to writing</a></div>
+</article>
